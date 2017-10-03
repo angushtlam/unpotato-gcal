@@ -1,0 +1,152 @@
+@-moz-document url-prefix("https://calendar.google.com") {
+/* Events */
+.chip {
+  border-radius: 5px;
+}
+
+.chip-border {
+  border-width: 1px !important;
+}
+
+.chip dl {
+  border-radius: 5px;
+  padding: 3px 0 1px;
+}
+
+.cpchip {
+  line-height: inherit;
+}
+
+.chip dt {
+  padding: 0px 2px 0 4px;
+  font-size: 9px;
+  font-weight: 900;
+}
+
+.mask-right, .mask-left, .mask-top, .mask-bottom {
+  border-color: transparent !important;
+  background-color: transparent !important;
+}
+
+.cbrd {
+  border-color: transparent !important;
+}
+
+.st-c {
+  border-left: 1px solid #eee;
+}
+
+/* All day */
+.st-grid {
+  background-color: #fff;
+}
+
+/* Hide gap between all-day and events */
+.wk-webcontent {
+  display: none;
+}
+
+.wk-allday .st-grid {
+  margin-bottom: -1px;
+  padding: 0;
+}
+
+.wk-border {
+  display: none;
+}
+
+/* Today */
+.wk-full-mode .wk-today {
+  background-color: #d14836;
+  border: 0;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.wk-full-mode .wk-tomorrow {
+  border-left: 0;
+}
+
+.tg-col-today {
+  border: 0;
+}
+
+/* Background */
+.tg-dualmarker {
+	border-bottom: 0;
+  border-top: 1px solid #eee;
+}
+
+.tg-col {
+  border-left: 1px solid transparent;
+}
+
+.tg-timedevents {
+  background: #fff;
+}
+
+.wk-border-right .tg-timedevents {
+  border-right: 0;
+}
+
+/* Time Zones */
+.tg-time-pri, .tg-time-sec, .tg-times-pri, .tg-times-sec {
+  border: 0;
+}
+
+.tg-times-pri > div, .tg-times-sec > div {
+  margin-top: -7px !important;
+  padding-bottom: 7px;
+}
+
+.tg-times-sec .tg-timesnotlast {
+  border-left: 0;
+}
+
+/* Do not push time marker down. */
+#tgnowptr {
+	margin-top: 0 !important;
+}
+  
+}
+
+@-moz-document url-prefix("https://calendar.google.com") {
+/* Font */
+html,
+body,
+.tg-timedevents,
+.calLabelListText,
+.evt-lk,
+.chip dd,
+.wk-dayname,
+.wk-allday,
+.rb-ni,
+.te-s {
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif !important;
+  font-size: 11px;
+  line-height: 1.1;
+}
+}
+
+@-moz-document url-prefix("https://calendar.google.com") {
+/* Sidebar */
+.calListSquare {
+	border-radius: 5px;
+}
+
+.dp-monthtable {
+  padding: 0 10px !important;
+}
+
+.dp-today,
+.dp-weekday-selected {
+  border: 0;
+}
+
+.dp-today {
+  background-color: #d14836;
+	border-radius: 5px;
+  color: #fff;
+}
+
+}
