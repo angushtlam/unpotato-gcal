@@ -111,6 +111,8 @@
 }
 
 @-moz-document url-prefix("https://calendar.google.com") {
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
 /* Font */
 html,
 body,
